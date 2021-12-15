@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1> Fanimal Calender App </h1>
+        <h1 className="Align"> Fanimal Calender App </h1>
         <DateRangePicker
           startDate={this.state.startDate}
           startDateId="startId"
